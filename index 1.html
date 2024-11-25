@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index 1.css">
+    <title>Cadastr.</title>
+</head>
+<body>
+    <div class="voltar">
+        <div class="botvoltar">
+            <button class="button"><img src="de-volta.png" alt=""></button>
+        </div>
+    </div>
+
+    <div class="mae">
+        <div class="container">
+            <div class="cont">
+                <div class="name">
+                    <div class="nome"><strong>NOME</strong></div>
+                    <input class="inpnome" type="text">
+                </div>
+    
+                <div class="email">
+                    <div class="gem"><strong>EMAIL</strong></div>
+                    <input class="inpgmail" type="text">
+                </div>
+    
+                <div class="pass">
+                    <div class="password"><strong>SENHA</strong></div>
+                    <input class="inpass" type="password">
+                </div>
+    
+                <div class="confPass">
+                    <div class="senha"><strong>CONFIRMAR SENHA</strong></div>
+                    <input class="inpsenha" type="password">
+                </div>
+
+                <div class="botao">
+                    <input class="bot" type="button" value="Cadastrar" id="but" >
+                        
+
+                </div>
+                <div id="conteudo"><p>CADASTRADO</p></div>
+
+                <div class="teste">
+                    <div><a href="http://127.0.0.1:5500/index.html" aria-placeholder="ola"></a></div>
+                    
+                    <script>
+                        document.getElementById("but").addEventListener("click", function() {
+                            var conteudo = document.getElementById("conteudo");
+                            if (conteudo.style.display === "none") {
+                                conteudo.style.display = "block";
+                            } else {
+                                conteudo.style.display = "none";
+                            }
+                        });
+                    </script>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

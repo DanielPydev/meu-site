@@ -1,0 +1,125 @@
+body{
+    background-image: url(Festival\ Invernal\ 2021\ começa\ hoje\ em\ Fortnite;\ novos\ trajes\ de\ \ Homem-Aranha\ -\ PSX\ Brasil.png);
+    background-color: rgb(163, 163, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container{
+    margin-top: -75px;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 500px;
+    border: white solid;
+    border: 4px solid white;
+    border-radius: 15px;
+    background-color: rgba(137, 194, 240, 0.726);
+}
+
+.mae{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.inpnome{
+    width: 350px;
+    height: 25px;
+    border-radius: 9px;
+    border: white solid;
+    margin-top: 10px;
+}
+
+.inpgmail{
+    width: 350px;
+    height: 25px;
+    border-radius: 9px;
+    border: white solid;
+    margin-top: 10px;
+}
+
+.inpass{
+    width: 350px;
+    height: 25px;
+    border-radius: 9px;
+    border: white solid;
+    margin-top: 10px;
+}
+
+.inpsenha{
+    width: 350px;
+    height: 25px;
+    border-radius: 9px;
+    border: white solid;
+    margin-top: 10px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    
+}
+
+.bot{
+    border: white solid;
+    background-color: white;
+}
+
+.nome{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gem{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.password{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.senha{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bot{
+    width: 180px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+.bot:hover{
+    background-color: rgb(226, 226, 226);
+    border: rgb(226, 226, 226) solid;
+}
+
+.button img{
+    width: 36px;
+    height: 39px;
+}
+ 
+.button{
+    background-color: rgb(192, 192, 192);
+    border: solid rgb(192, 192, 192);
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+#conteudo {
+    display: none; 
+    color: red;
+    text-align: center;
+    
+}
